@@ -10,7 +10,7 @@
         android:id="@+id/main_container_layout"
         android:layout_width="0dp"
         android:layout_height="250dp"
-        android:background="@color/purple_200"
+        android:background="#AAAAAA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -28,6 +28,7 @@
         app:resize_mode="fill" />
 
     <ImageView
+        android:src="@drawable/ic_baseline_play_arrow_24"
         android:id="@+id/bottom_player_controller_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,6 +38,7 @@
         app:layout_constraintTop_toTopOf="@id/main_container_layout" />
 
     <TextView
+        android:text="제목입니다."
         android:id="@+id/bottom_title_text_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
